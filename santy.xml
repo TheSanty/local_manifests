@@ -15,7 +15,6 @@
 
 	<project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="babu" revision="android-11"/>
 	<project path="device/qcom/sepolicy/vndr" name="device_qcom_sepolicy_vndr" remote="babu" revision="android-11"/>
-	<project path="libcore" name="platform_libcore" remote="babu" revision="android-11"/>
 	<project path="external/json-c" name="platform_external_json-c" remote="babu" revision="android-11"/>
 	<project path="hardware/libhardware" name="platform_hardware_libhardware" remote="babu" revision="android-11"/>
 	<project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="babu" revision="android-11"/>
