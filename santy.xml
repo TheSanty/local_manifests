@@ -14,7 +14,7 @@
 	<project path="vendor/xiaomi" name="vendor" remote="Santy" revision="lineage-18.1"/>
 
 	<project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="babu" revision="android-11"/>
-	<project path="device/qcom/sepolicy/vndr" name="device_qcom_sepolicy_vndr" remote="babu" revision="android-11"/>
+	<project path="device/qcom/sepolicy/vndr" name="device_qcom_sepolicy_vndr" remote="babu" revision="android-12"/>
 	<project path="external/json-c" name="platform_external_json-c" remote="babu" revision="android-11"/>
 	<project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="babu" revision="android-11"/>
 	<project path="external/libbfqio" name="platform_external_libbfqio" remote="babu" revision="android-11"/>
