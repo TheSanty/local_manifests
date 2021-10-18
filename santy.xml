@@ -10,4 +10,5 @@
 	<project path="vendor/xiaomi" name="vendor" remote="Santy" revision="lineage-18.1"/>
 
 	<remove-project name="platform/packages/modules/Virtualization" />
+	<remove-project name="device/generic/opengl-transport" />
 </manifest>
