@@ -11,4 +11,5 @@
 
 	<remove-project name="platform/packages/modules/Virtualization" />
 	<remove-project name="device/generic/opengl-transport" />
+	<remove-project name="platform/external/e2fsprogs" />
 </manifest>
