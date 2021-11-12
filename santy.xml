@@ -9,5 +9,6 @@
 	<project path="kernel/xiaomi/sdm660" name="Whyred" remote="Santy" revision="extended-eas"/>
 	<project path="vendor/xiaomi" name="vendor_xiaomi" remote="Santy" revision="eleven"/>
 	<project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="Santy" revision="11.x"/>
-	
+	<project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="Santy" revision="11"/>
+
 </manifest>
