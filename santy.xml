@@ -8,7 +8,7 @@
 
         <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="Santy" revision="snow"/>
         <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="Santy" revision="snow"/>
-        <project path="kernel/xiaomi/sdm660" name="Whyred" remote="Attack" revision="extended-eas"/>
+        <project path="kernel/xiaomi/sdm660" name="mystic_kernel_sdm660-4.4" remote="Santy" revision="Mystic-4.4"/>
         <project path="vendor/xiaomi" name="vendor" remote="Santy" revision="lineage-18.1"/>
         <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="Santy" revision="12.x"/>
         <project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="Santy" revision="12"/>
