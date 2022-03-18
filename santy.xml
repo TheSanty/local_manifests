@@ -3,14 +3,13 @@
 
         <remote  name="Santy"
                 fetch="https://github.com/TheSanty" />
-        <remote  name="Attack"
-                fetch="https://github.com/fernandobouchet" />
 
         <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="Santy" revision="snow"/>
         <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="Santy" revision="snow"/>
-        <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="Santy" revision="kernel-eas"/>
+        <project path="kernel/xiaomi/sdm660" name="Whyred" remote="Santy" revision="extended-eas-haptics"/>
         <project path="vendor/xiaomi" name="vendor" remote="Santy" revision="lineage-18.1"/>
         <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="Santy" revision="12.x"/>
         <project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="Santy" revision="12"/>
+        <project path="vendor/evolution/build/target/product/security" name="evolution_keys" remote="Santy" revision="elle"/>
 
 </manifest>
