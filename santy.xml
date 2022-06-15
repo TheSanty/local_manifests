@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote  name="Santy"
-                fetch="https://github.com/TheSanty" />
-        <remote  name="PE"
-                fetch="https://github.com/PixelExperience-Devices" />
+        <remote  name="GH"
+                fetch="https://github.com" />
 
-        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="Santy" revision="12"/>
-        <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="Santy" revision="12"/>
-        <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred" remote="PE" revision="twelve"/>
-        <project path="vendor/xiaomi" name="vendor" remote="Santy" revision="snow"/>
-        <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="Santy" revision="12.x"/>
-        <project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="Santy" revision="12"/>
+        <project path="device/xiaomi/whyred" name="TheSanty/android_device_xiaomi_whyred" remote="GH" revision="lineage-19.1"/>
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="GH" revision="lineage-19.1"/>
+        <project path="kernel/xiaomi/whyred" name="EdwinMoq/android_kernel_xiaomi_whyred" remote="GH" revision="lineage-19.1"/>
+        <project path="vendor/xiaomi/whyred" name="EdwinMoq/android_vendor_xiaomi_whyred" remote="GH" revision="lineage-19.1"/>
 
 </manifest>
