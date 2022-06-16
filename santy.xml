@@ -7,7 +7,9 @@
 		fetch="https://github.com/xiaomi-sdm660" />
 	<remote  name="PE"
                 fetch="https://github.com/PixelExperience-Devices" />
-	
+	<remote  name="los"
+                fetch="https://github.com/LineageOS" />
+
  	<project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="Santy" revision="elle"/>
 	<project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="Santy" revision="elle"/>
 	<project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_whyred" remote="PE" revision="twelve"/>
@@ -15,5 +17,6 @@
 	<project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="Santy" revision="11.x"/>
 	<project path="vendor/xiaomi/dirac" name="vendor_xiaomi_dirac" remote="lol" revision="11"/>
 	<project path="vendor/evolution/build/target/product/security" name="evolution_keys" remote="Santy" revision="elle"/>
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-18.1 "/>
 
 </manifest>
